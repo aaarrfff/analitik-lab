@@ -12,7 +12,7 @@ st.write("Yuk cari tahu senyawa apa yang ingin kamu ketahui")
 
 # Membuat Menu menggunakan Tabs
 tab1, tab2 = st.tabs([
-    "⚡ Identifikasi Ion (Analitik)"
+    "⚡ Identifikasi Ion (Analitik)",
     "Materi"
 ])
 # --- TAB 4: IDENTIFIKASI ION (SKEMA CAMPURAN GOL. I-V) ---
