@@ -11,12 +11,13 @@ st.title("🧪 Asisten Digital Laboratorium Analitik")
 st.write("Yuk cari tahu senyawa apa yang ingin kamu ketahui")
 
 # Membuat Menu menggunakan Tabs
-tab1 = st.tabs([
+tab1, tab2 = st.tabs([
     "⚡ Identifikasi Ion (Analitik)"
+    "Materi"
 ])
 # --- TAB 4: IDENTIFIKASI ION (SKEMA CAMPURAN GOL. I-V) ---
 # --- TAB 4: IDENTIFIKASI ION (ANALITIK) ---
-with tab4:
+with tab1:
     st.header("Sistem Identifikasi Kation & Anion")
     # ------------------ BAGIAN MATERI ------------------
     # Membuat materi yang bisa diklik/dilipat
