@@ -1,4 +1,15 @@
 import streamlit as st
+# Pengaturan halaman utama
+st.set_page_config(
+    page_title="Asisten Lab Kimia Analitik",
+    page_icon="🧪",
+    layout="wide"
+)
+
+# Judul Aplikasi
+st.title("🧪 Asisten Digital Laboratorium Analitik")
+st.write("Yuk cari tahu senyawa apa yang ingin kamu ketahui")
+
 # Membuat Menu menggunakan Tabs
 tab1, tab2, tab3, tab4 = st.tabs([
     "🔍 Gugus Fungsi", 
