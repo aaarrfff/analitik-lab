@@ -21,7 +21,21 @@ tab1, tab2, tab3, tab4 = st.tabs([
 # --- TAB 4: IDENTIFIKASI ION (ANALITIK) ---
 with tab4:
     st.header("Sistem Identifikasi Kation & Anion")
-    
+    # ------------------ BAGIAN MATERI ------------------
+    # Membuat materi yang bisa diklik/dilipat
+    with st.expander("📚 Klik di sini untuk membaca Materi & Skema Dasar"):
+        st.markdown("""
+        ### Dasar Teori Pemisahan Kation
+        Analisis kualitatif kation didasarkan pada perbedaan kelarutan garam-garamnya. 
+        Secara umum, kation dipisahkan menjadi 5 golongan berdasarkan reagen selektif:
+        * *Golongan I:* Mengendap dengan HCl encer (Ag⁺, Pb²⁺, Hg₂²⁺).
+        * *Golongan II:* Mengendap dengan H₂S dalam suasana asam.
+        * *Golongan III:* Mengendap dengan H₂S dalam suasana basa / amoniakal.
+        * *Golongan IV:* Mengendap dengan (NH₄)₂CO₃ (Ba²⁺, Sr²⁺, Ca²⁺).
+        * *Golongan V:* Sisa kation yang tidak mengendap (Mg²⁺, Na⁺, K⁺).
+        """)
+        
+        st.info("💡 *Tips Lab:* Selalu cuci endapan dengan akuades sebelum menambahkan reagen tahap berikutnya agar tidak ada kontaminasi ion dari golongan sebelumnya.")
     # Menu utama agar hasil tidak bertabrakan
     jenis_analisis = st.selectbox(
         "Pilih Metode Analisis:",
